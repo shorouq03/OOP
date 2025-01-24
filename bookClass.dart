@@ -10,17 +10,17 @@ class Book {
     this.author = author;
   }
 
-// checkOut method
+// checkOut method set isAvailable to false
   void checkOut() {
     isAvailable = false;
   }
 
-// returnBook function
+// returnBook function set isAvailable to true
   void returnBook() {
     isAvailable = true;
   }
 
-// printInfo function
+// printInfo function to print book details
   void printInfo() {
     print('Title of this book is $title');
     print('Author of this book is $author');
